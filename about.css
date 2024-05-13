@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8E8D9;
+}
+.about div{
+    margin: 10%;
+
+}
+.about div h4{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+.about div p{
+    font-size: 30px;
+    text-align: center;
+}
+.pchef {
+    width: 100%;
+}
+
+.pchef h4 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.two div {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    background-color: white;
+    border-radius: 4%;
+    margin: 10px; /* Add margin for spacing between divs */
+}
+
+.two div img {
+    max-height: 60%; /* Adjust image size */
+    width: auto;
+    display: block;
+}
+
+.two div h4 {
+    text-align: center; /* Center the paragraph text */
+    margin-top: 10px; /* Add margin on top of the paragraph */
+    font-size: 20px;
+    color: orangered;
+}
+.two div p {
+    text-align: center; /* Center the paragraph text */
+    margin-top: 10px; /* Add margin on top of the paragraph */
+   
+}

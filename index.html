@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cafe Bites</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="cent">
+        
+    
+        
+        <div id="page">
+        
+        <div id="login-page" class="animate_animated animate_flipInY">
+            
+        
+        <form id="login" action="#">
+            <h2> Cafe Bites</h2>
+            
+            
+            <input type="text" name="username" placeholder="Email" id="login-username"><br>
+        
+            <input type="password" name="password" placeholder="password" id="login-password"><br>
+            
+            <input type="submit" value="Login" id="login-btn" onclick="return login()">
+
+        
+        </form>
+        <p style="text-align:center;font-size:16px;font-family:sans-serif;color: black;">Don't have an Account.
+                <span style="color:red;cursor:pointer;" id="hide" onclick="hide()">Signup</span></p>
+
+        </div>
+        
+        <div id="signup-page" class="animate_animated animate_flipInY">
+            
+        
+        <form id="signup">
+            <h2>SignUp User !</h2>
+            <input type="text" name="username" placeholder="Your name" id="signup-username"><br>
+            <input type="email" name="email" placeholder="Email" id="email" onchange="userfound()">
+            <span id="user-exist"></span>
+            <br>
+            <input type="password" name="password" placeholder="Password" id="signup-pass"><br>
+            <input type="number" name="number" placeholder="Mobile no" id="mobileno"><br>
+            <span id="success-text"></span>
+            <input type="submit" value="Sign Up" id="signup-btn" onclick="return signup()">
+        </form> 
+            <p style="text-align:center;font-size:16px;font-family:sans-serif;color: antiquewhite;">Already have an Account.
+                <span style="color:red;cursor:pointer;" id="show" onclick="show()">Login</span></p>
+        </div>
+
+     </div>
+
+     </div>
+</body>
+</html>
